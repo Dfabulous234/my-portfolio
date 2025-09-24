@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+section {
+  max-width: 100%;
+  overflow-x: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.about-section {
+  padding: 6rem 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+section#about {
+  animation: fadeIn 1s ease forwards;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* project top */
+.custom-shape-divider-top-1749427692 {
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 0;
+}
+
+.custom-shape-divider-top-1749427692 svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+
+}
+/* Project Bottom */
+.custom-shape-divider-top-1749428882 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1749428882 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+
+ /* Experience Top */
+ .custom-shape-divider-bottom-1747668439 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1747668439 svg {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+/* Experience Bottom */
+.custom-shape-divider-top-1749429220 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1749429220 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+/* Involvement Top */
+.custom-shape-divider-bottom-1747673317 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1747673317 svg {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+/* Involvement Bottom */
+.custom-shape-divider-top-1749429428 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1749429428 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+/* Resume top */
+.custom-shape-divider-bottom-1747673421 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1747673421 svg {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+/* Resume Bottom */
+.custom-shape-divider-top-1749429710 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1749429710 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+/* Contact Top*/
+.custom-shape-divider-bottom-1747676070 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 0;
+}
+
+.custom-shape-divider-bottom-1747676070 svg {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  .about-section {
+    padding: 3rem 1rem;
+  }
+
+
+  nav a {
+    font-size: 0.9rem;
+    justify-content: center;
+  }
+
+  nav div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+ 
+}
